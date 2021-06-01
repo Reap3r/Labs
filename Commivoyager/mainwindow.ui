@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>994</width>
+    <height>424</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:#5e5e5e;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Display">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>440</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#9fbac7;
+border-radius: 5px;
+font-family: calibri;
+font-size: 20px;
+color:#3d3d3d;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Input amount of cities and press create</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="LinksTable">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>10</y>
+      <width>525</width>
+      <height>405</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #dedede;
+border: solid 2px #94fa7f;
+border-radius: 3px;
+font-family: calibri;
+font-size: 20px;
+color:#3d3d3d;
+font-weight: bold;
+Alignment: center;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Create">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>440</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background: #dedede;
+	border-radius: 8px;
+	font-family: calibri;
+	font-size: 20px;
+	color:#3d3d3d;
+	font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dedede;
+}
+QPushButton:hover {
+ 	background-color: #5e5e5e;
+  	color:  #9fbac7;
+    border-color:  #9fbac7;
+}</string>
+    </property>
+    <property name="text">
+     <string>Create</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="City">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>440</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #9fbac7;
+border-radius: 5px;
+font-family: calibri;
+font-size: 20px;
+color:#3d3d3d;
+font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Check">
+    <property name="geometry">
+     <rect>
+      <x>615</x>
+      <y>0</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: calibri;
+font-size: 20px;
+color:#b58fcf;
+font-weight: bold;
+border-radius: 6px;</string>
+    </property>
+    <property name="text">
+     <string>There will be a table</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: Viner Hand ITC;
+font-size: 30px;
+color:#b58fcf</string>
+    </property>
+    <property name="text">
+     <string>Kommi</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Accept_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>320</y>
+      <width>200</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background: #dedede;
+	border-radius: 8px;
+	font-family: calibri;
+	font-size: 20px;
+	color:#3d3d3d;
+	font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dedede;
+}
+QPushButton:hover {
+ 	background-color: #5e5e5e;
+  	color:  #9fbac7;
+    border-color:  #9fbac7;
+}</string>
+    </property>
+    <property name="text">
+     <string>Remove city</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Accept">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>200</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background: #dedede;
+	border-radius: 8px;
+	font-family: calibri;
+	font-size: 20px;
+	color:#3d3d3d;
+	font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dedede;
+}
+QPushButton:hover {
+ 	background-color: #5e5e5e;
+  	color:  #9fbac7;
+    border-color:  #9fbac7;
+}</string>
+    </property>
+    <property name="text">
+     <string>Add city</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Answer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>200</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background: #dedede;
+	border-radius: 8px;
+	font-family: calibri;
+	font-size: 20px;
+	color:#3d3d3d;
+	font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dedede;
+}
+QPushButton:hover {
+ 	background-color: #5e5e5e;
+  	color:  #9fbac7;
+    border-color:  #9fbac7;
+}</string>
+    </property>
+    <property name="text">
+     <string>Answer</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Visual">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>250</y>
+      <width>200</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background: #dedede;
+	border-radius: 8px;
+	font-family: calibri;
+	font-size: 20px;
+	color:#3d3d3d;
+	font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dedede;
+}
+QPushButton:hover {
+ 	background-color: #5e5e5e;
+  	color:  #9fbac7;
+    border-color:  #9fbac7;
+}</string>
+    </property>
+    <property name="text">
+     <string>Visualising</string>
+    </property>
+   </widget>
+   <zorder>LinksTable</zorder>
+   <zorder>Create</zorder>
+   <zorder>City</zorder>
+   <zorder>Check</zorder>
+   <zorder>label</zorder>
+   <zorder>Accept_2</zorder>
+   <zorder>Accept</zorder>
+   <zorder>Answer</zorder>
+   <zorder>Visual</zorder>
+   <zorder>Display</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
